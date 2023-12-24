@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="estilos/media.css">
 </head>
 
-<body>
+<body onload="carregar()">
     <main>
         <section id="login">
             <div id="imagem">
@@ -37,11 +37,18 @@
                         <label for="isenha">Senha</label>
                     </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">Esqueci a senha</a>
+                    <a href="esqueci.html" class="botão">Esqueci a senha <span class="material-symbols-outlined">
+                        mail
+                        </span></a>
                 </form>
             </div>
         </section>
     </main>
+    <script>
+        function carregar() {
+
+        }
+    </script>
 </body>
 
 </html>
