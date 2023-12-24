@@ -121,6 +121,29 @@ form > div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+div.campo > span{
+    color: #fff;
+    font-size: 2em;
+    width: 45px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #53b1b0;
+    font-size: 1em;
+    height: 97%;
+    border: 2px solid #5f2c82;
+    border-radius: 0px 8px 8px 0px;
+    padding: 4px;
+    width:calc(100% - 50px);
+    transform: translateY(-11px);
+}
+
+div.campo > input:focus-within{
+    background-color: #fff;
+    outline: none;
 }

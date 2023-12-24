@@ -22,6 +22,10 @@
         float: right;
         width: 70%;
     }
+
+    section#login{
+        height: 290px;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -30,6 +34,7 @@
     }
     Section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > #imagem{
@@ -52,7 +57,7 @@
     
 
     section#login > #form p{
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 700;
     }
 }
